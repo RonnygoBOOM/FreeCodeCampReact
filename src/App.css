@@ -1,0 +1,31 @@
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(116, 116, 116);
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items li {
+  padding: 10px;
+}
+
+.logo {
+  width: 3em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(white, gray);
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
