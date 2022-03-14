@@ -29,3 +29,39 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+h1 {
+  margin: .3em;
+}
+
+.unordered-list {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  letter-spacing: -.05em
+}
+
+.unordered-list > li::marker {
+ font-size: 1.4rem;
+ color: #61DBFB;
+}
+
+.half-logo {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: right;
+  margin-right:-8.5% ;
+  width: 17%;
+  filter:opacity(50%);
+}
+
+.bg-image {
+  overflow:hidden;
+}
+
+/* To avoid using this odd solution of using a negative margin, use a background image instead of a img */
+.main-content {
+  float: left;
+  margin-top:-17.5%;
+}
